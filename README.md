@@ -14,7 +14,11 @@
 
 ## Como executar
 
-## Links para documentação
+## Documentação
+
+- [Padronização de commit](./docs/padrao-commits.md)
+- [Padronização de branches](./docs/padrao-branches.md)
+- [Padronização de pull requests](./docs/padrao-pr.md)
 
 ## Equipe
 
