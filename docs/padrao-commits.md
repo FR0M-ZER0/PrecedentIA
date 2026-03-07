@@ -21,3 +21,8 @@ Toda descrição deve iniciar com um verbo no **imperativo** (ex.: "adiciona"), 
 - `refactor`: Alteração no código sem mudança de comportamento
 - `test`: Adição ou ajuste de testes
 - `ci`: Adição ou ajustes de arquivos ou scripts de configuração do CI
+
+
+## Atomic commits
+
+Usamos também o conceito do [Atomic Commits](https://community.revelo.com.br/commits-atomicos-o-que-sao/), ou seja, cada commit representa uma única alteração.
