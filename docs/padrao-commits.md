@@ -19,7 +19,7 @@ Toda descrição deve iniciar com um verbo no **imperativo** (ex.: "adiciona"), 
 - `docs`: Adição ou ajuste de documentação
 - `style`: Mudanças que não afetam o código (como formatação, remoção de espaços em brancos etc)
 - `refactor`: Alteração no código sem mudança de comportamento
-- `chore`: Mudanças que não geram funcionalidades ou corregões de bugs (como atualização de dependências, ajuste de scripts de automação etc)
+- `chore`: Mudanças que não geram funcionalidades ou correções de bugs (como atualização de dependências, ajuste de scripts de automação etc)
 - `test`: Adição ou ajuste de testes
 - `ci`: Adição ou ajustes de arquivos ou scripts de configuração do CI
 
