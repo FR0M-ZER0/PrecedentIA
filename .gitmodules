@@ -7,3 +7,6 @@
 [submodule "precedentia-embedding"]
 	path = precedentia-embedding
 	url = git@https://github.com/FR0M-ZER0/precedentia-embedding.git
+[submodule "precedentia-scraper"]
+	path = precedentia-scraper
+	url = git@https://github.com/FR0M-ZER0/precedentia-scraper.git
