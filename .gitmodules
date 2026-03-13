@@ -1,3 +1,6 @@
 [submodule "precedentia-mobile"]
 	path = precedentia-mobile
 	url = git@https://github.com/FR0M-ZER0/precedentia-mobile.git
+[submodule "precedentia-api"]
+	path = precedentia-api
+	url = git@https://github.com/FR0M-ZER0/precedentia-api.git
