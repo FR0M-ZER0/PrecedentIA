@@ -4,3 +4,6 @@
 [submodule "precedentia-api"]
 	path = precedentia-api
 	url = git@https://github.com/FR0M-ZER0/precedentia-api.git
+[submodule "precedentia-embedding"]
+	path = precedentia-embedding
+	url = git@https://github.com/FR0M-ZER0/precedentia-embedding.git
