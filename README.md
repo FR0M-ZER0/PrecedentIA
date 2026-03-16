@@ -12,6 +12,12 @@
 
 ## Descrição do projeto
 
+A empresa Xertica.ai, especializada em soluções avançadas de Inteligência Artificial Generativa (GenAI) e consultoria em nuvem para a América Latina, busca expandir o uso de IA em fluxos de trabalho jurídicos. Para isso, foi proposto o desenvolvimento de uma solução capaz de automatizar a busca e análise de precedentes jurídicos a partir de petições iniciais.
+
+O desafio consiste em criar um sistema completo que permita ao usuário enviar petições iniciais por meio de um aplicativo mobile desenvolvido em Flutter. A partir desses documentos, o sistema utiliza modelos de Inteligência Artificial para analisar o conteúdo jurídico e identificar precedentes equivalentes que possam auxiliar na fundamentação de casos.
+
+As informações processadas serão enviadas a um servidor responsável pelo tratamento dos dados e pela organização dos resultados, que serão retornados ao usuário de forma estruturada, facilitando a consulta e análise das decisões judiciais relevantes.
+
 ## Backlog
 
 ## Cronograma
