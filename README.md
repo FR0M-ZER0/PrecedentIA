@@ -24,6 +24,8 @@ As informações processadas serão enviadas a um servidor responsável pelo tra
 
 ## Arquitetura do sistema
 
+![arquitetura](./docs/precedentia-arquitetura.png)
+
 ## Tecnologias utilizadas
 
 ## Como executar e usar o projeto
