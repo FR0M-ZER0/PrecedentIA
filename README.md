@@ -2,7 +2,15 @@
 
 ## Índice
 
-## Descrição
+- [📝 Descrição do projeto](#-descrição-do-projeto)
+- [📋 Backlog](#-backlog)
+- [📅 Cronograma de evolução do Projeto](#-cronograma)
+- [⚙️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [🚀 Como executar e usar o projeto](#-como-executar-e-usar-o-projeto)
+- [📂 Documentação](#-documentação)
+- [👥 Equipe](#-equipe)
+
+## Descrição do projeto
 
 ## Backlog
 
@@ -12,7 +20,7 @@
 
 ## Tecnologias utilizadas
 
-## Como executar
+## Como executar e usar o projeto
 
 ## Documentação
 
