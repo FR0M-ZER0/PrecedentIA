@@ -10,3 +10,6 @@
 [submodule "precedentia-scraper"]
 	path = precedentia-scraper
 	url = git@https://github.com/FR0M-ZER0/precedentia-scraper.git
+[submodule "precedentia-summary"]
+	path = precedentia-summary
+	url = git@https://github.com/FR0M-ZER0/precedentia-summary.git
