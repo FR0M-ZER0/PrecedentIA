@@ -18,9 +18,25 @@ O desafio consiste em criar um sistema completo que permita ao usuário enviar p
 
 As informações processadas serão enviadas a um servidor responsável pelo tratamento dos dados e pela organização dos resultados, que serão retornados ao usuário de forma estruturada, facilitando a consulta e análise das decisões judiciais relevantes.
 
-## Backlog
+## 📋 Product Backlog
+
+| Rank | Prioridade | User Story | Estimativa | Sprint |
+| :--- | :--- | :--- | :---: | :---: |
+| 1 | Alta | Como Juiz, desejo submeter o arquivo de uma petição inicial para extrair os pontos principais do processo de forma automatizada. | 13 | 1 |
+| 2 | Alta | Como Juiz, desejo visualizar precedentes jurídicos categorizados pelo seu nível de aplicabilidade ao caso, para agilizar a fundamentação da minha decisão. | 13 | 1 |
+| 3 | Alta | Como Juiz, desejo ler uma síntese explicativa que compare a petição aos precedentes listados, para compreender a justificativa da recomendação da ferramenta antes de tomar minha decisão. | 8 | 1 |
+| 4 | Alta | Como Juiz, desejo acessar uma área de trabalho confidencial e individualizada, para garantir o sigilo absoluto das informações processuais que estou analisando. | 5 | 2 |
+| 5 | Alta | Como Juiz, desejo organizar os relatórios de casos que já analisei em pastas personalizadas, para consultar rapidamente estudos anteriores em processos futuros. | 8 | 2 |
+| 6 | Média | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 3 |
+| 7 | Média | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
 
 ## Cronograma
+
+| Sprint | Período | Status | Relatório |
+|:------:|:-------:|:------:|:---------:|
+| 1 | 16/03/2026 à 05/04/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
+| 2 | 13/04/2026 à 03/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
+| 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
 
 ## Arquitetura do sistema
 
@@ -28,10 +44,16 @@ As informações processadas serão enviadas a um servidor responsável pelo tra
 
 ## Tecnologias utilizadas
 
+`Em elaboração pela equipe`
+
 ## Como executar e usar o projeto
+
+`Em elaboração pela equipe`
 
 ## Documentação
 
+- [Requisitos](./docs/requisitos.md)
+- [DoR e DoD](./docs/dor-dod.md)
 - [Padronização de commit](./docs/padrao-commits.md)
 - [Padronização de branches](./docs/padrao-branches.md)
 - [Padronização de pull requests](./docs/padrao-pr.md)
