@@ -1,22 +1,28 @@
-# 📄 PrecedentIA - Sistema de match entre petições iniciais e precedentes jurídicos por IA
+<p align="center">
+  <img src="./docs/banner.png" alt="PrecedentIA Banner" width="100%">
+</p>
+
+# ⚖️ PrecedentIA - Inteligência Artificial Jurídica
 
 ## Índice
 
-- [📝 Descrição do projeto](#-descrição-do-projeto)
-- [📋 Backlog](#-backlog)
-- [📅 Cronograma de evolução do Projeto](#-cronograma)
-- [⚙️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [📝 Descrição do Projeto](#-descrição-do-projeto)
+- [📋 Product Backlog](#-product-backlog)
+- [📅 Cronograma](#-cronograma)
+- [🏗️ Estrutura do Projeto e Arquitetura](#️-estrutura-do-projeto-e-arquitetura)
+- [⚙️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
 - [🚀 Como executar e usar o projeto](#-como-executar-e-usar-o-projeto)
 - [📂 Documentação](#-documentação)
 - [👥 Equipe](#-equipe)
 
-## Descrição do projeto
+---
 
-A empresa Xertica.ai, especializada em soluções avançadas de Inteligência Artificial Generativa (GenAI) e consultoria em nuvem para a América Latina, busca expandir o uso de IA em fluxos de trabalho jurídicos. Para isso, foi proposto o desenvolvimento de uma solução capaz de automatizar a busca e análise de precedentes jurídicos a partir de petições iniciais.
+## 📝 Descrição do Projeto
+A **Xertica.ai** identificou uma saturação nos fluxos de trabalho jurídicos na América Latina. Magistrados enfrentam uma carga processual elevada, onde a busca manual por precedentes em petições iniciais consome um tempo precioso que poderia ser dedicado à análise de mérito. 
 
-O desafio consiste em criar um sistema completo que permita ao usuário enviar petições iniciais por meio de um aplicativo mobile desenvolvido em Flutter. A partir desses documentos, o sistema utiliza modelos de Inteligência Artificial para analisar o conteúdo jurídico e identificar precedentes equivalentes que possam auxiliar na fundamentação de casos.
+O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para automatizar a triagem de documentos e sugerir fundamentos jurídicos de forma inteligente e ágil.
 
-As informações processadas serão enviadas a um servidor responsável pelo tratamento dos dados e pela organização dos resultados, que serão retornados ao usuário de forma estruturada, facilitando a consulta e análise das decisões judiciais relevantes.
+---
 
 ## 📋 Product Backlog
 
@@ -30,42 +36,63 @@ As informações processadas serão enviadas a um servidor responsável pelo tra
 | 6 | Média | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 3 |
 | 7 | Média | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
 
-## Cronograma
+---
+
+## 📅 Cronograma
 
 | Sprint | Período | Status | Relatório |
 |:------:|:-------:|:------:|:---------:|
-| 1 | 16/03/2026 à 05/04/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
+| 1 | 16/03/2026 à 05/04/2026 | Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
 | 2 | 13/04/2026 à 03/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
 | 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
 
-## Arquitetura do sistema
+---
 
+## 🏗️ Estrutura do Projeto e Arquitetura
+O repositório utiliza **Submódulos Git** para gerenciar os componentes de forma independente:
+
+* **[Api](https://github.com/FR0M-ZER0/PrecedentIA-Api):** Core do servidor e orquestração de IA.
+* **[DataGetter](https://github.com/FR0M-ZER0/PrecedentIA-DataGetter):** Módulo de coleta e ingestão de dados jurídicos.
+* **[DataProcessing](https://github.com/FR0M-ZER0/PrecedentIA-DataProcessing):** Processamento de Linguagem Natural (NLP) e modelos de IA.
+* **[Precedentia-Mobile](https://github.com/FR0M-ZER0/PrecedentIA-Mobile):** Aplicativo mobile desenvolvido em Flutter.
+
+### Arquitetura do Sistema
 ![arquitetura](./docs/precedentia-arquitetura.png)
 
-## Tecnologias utilizadas
+---
+
+## ⚙️ Tecnologias Utilizadas
+* **Frontend:** Flutter (Dart)
+* **Backend:** Python (FastAPI / Flask)
+* **IA:** LLMs (GenAI), LangChain, Vector Databases.
+* **Infra:** Google Cloud Platform.
+
+---
+
+## 🚀 Como Executar, Usar e Testar o Projeto
 
 `Em elaboração pela equipe`
 
-## Como executar e usar o projeto
+---
 
-`Em elaboração pela equipe`
+## 📂 Documentação
 
-## Documentação
-
-- [Requisitos](./docs/requisitos.md)
+- [Requisitos do Projeto](./docs/requisitos.md)
 - [DoR e DoD](./docs/dor-dod.md)
-- [Padronização de commit](./docs/padrao-commits.md)
-- [Padronização de branches](./docs/padrao-branches.md)
-- [Padronização de pull requests](./docs/padrao-pr.md)
+- [Padronização de Commits](./docs/padrao-commits.md)
+- [Padronização de Branches](./docs/padrao-branches.md)
+- [Padronização de Pull Requests](./docs/padrao-pr.md)
 
-## Equipe
+---
+
+## 👥 Equipe
 
 | Foto | Nome | Papel | Link para GitHub | Link para LinkedIn |
 | :---: | :--- | :--- | :--- | :--- |
-| <img src="https://github.com/DMBMz.png" alt="Foto de Davi Marinho" height="64" width="64"> | *Davi Marinho* | *Developer* | *https://github.com/DMBMz* | *https://www.linkedin.com/in/davi-miguel-a90821214/* |
-| <img src="https://github.com/MagNumGomes.png" alt="Foto de João Góes" height="64" width="64"> | *João Góes* | *Product Owner* | *https://github.com/MagNumGomes* | *https://www.linkedin.com/in/joaovitorgoes* |
-| <img src="https://github.com/ClaudioJaymeDiniz.png" alt="Foto de Cláudio Jayme" height="64" width="64"> | *Cláudio Jayme* | *Developer* | *https://github.com/ClaudioJaymeDiniz* | ** |
 | <img src="https://github.com/joaosuzuki98.png" alt="Foto de João Suzuki" height="64" width="64"> | *João Suzuki* | *Scrum Master* | *https://github.com/joaosuzuki98* | *https://www.linkedin.com/in/jo%C3%A3o-suzuki-6a2b02192/* |
+| <img src="https://github.com/MagNumGomes.png" alt="Foto de João Góes" height="64" width="64"> | *João Góes* | *Product Owner* | *https://github.com/MagNumGomes* | *https://www.linkedin.com/in/joaovitorgoes* |
+| <img src="https://github.com/ClaudioJaymeDiniz.png" alt="Foto de Cláudio Jayme" height="64" width="64"> | *Cláudio Jayme* | *Developer* | *https://github.com/ClaudioJaymeDiniz* | *https://www.linkedin.com/in/claudio-jayme/* |
+| <img src="https://github.com/DMBMz.png" alt="Foto de Davi Marinho" height="64" width="64"> | *Davi Marinho* | *Developer* | *https://github.com/DMBMz* | *https://www.linkedin.com/in/davi-miguel-a90821214/* |
 | <img src="https://github.com/AvyaAquino.png" alt="Foto de Avya Alex" height="64" width="64"> | *Avya Alex* | *Developer* | *https://github.com/AvyaAquino* | *https://www.linkedin.com/in/avya-candido-598b5228a/* |
 | <img src="https://github.com/gabrielbguimaraes.png" alt="Foto de Gabriel Guimarães" height="64" width="64"> | *Gabriel Guimarães* | *Developer* | *https://github.com/gabrielbguimaraes* | *https://www.linkedin.com/in/gabriel-g-854017138* |
 | <img src="https://github.com/GalaxyBurst.png" alt="Foto de Pedro Prevides" height="64" width="64"> | *Pedro Prevides* | *Developer* | *https://github.com/GalaxyBurst* | *https://www.linkedin.com/in/pedro-prevides-87a0b71a8/* |
