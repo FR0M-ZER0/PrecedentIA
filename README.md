@@ -62,10 +62,13 @@ O repositório utiliza **Submódulos Git** para gerenciar os componentes de form
 ---
 
 ## ⚙️ Tecnologias Utilizadas
+
 * **Frontend:** Flutter (Dart)
 * **Backend:** Python (FastAPI / Flask)
-* **IA:** LLMs (GenAI), LangChain, Vector Databases.
-* **Infra:** Google Cloud Platform.
+* **Inteligência Artificial:** Ollama, Transformer-Encoders e Qdrant (Vector Database).
+* **Infraestrutura em Nuvem:** Oracle Cloud Infrastructure (OCI).
+* **Orquestração e Containers:** Kubernetes (K8s) e Docker.
+* **Infraestrutura como Código (IaC):** Terraform.
 
 ---
 
