@@ -11,7 +11,7 @@
 - [📅 Cronograma](#-cronograma)
 - [🏗️ Estrutura do Projeto e Arquitetura](#️-estrutura-do-projeto-e-arquitetura)
 - [⚙️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [🚀 Como executar e usar o projeto](#-como-executar-e-usar-o-projeto)
+- [🚀 Como Executar, Usar e Testar o Projeto](#-como-executar-usar-e-testar-o-projeto)
 - [📂 Documentação](#-documentação)
 - [👥 Equipe](#-equipe)
 
@@ -32,9 +32,8 @@ O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para autom
 | 2 | Alta | Como Juiz, desejo visualizar precedentes jurídicos categorizados pelo seu nível de aplicabilidade ao caso, para agilizar a fundamentação da minha decisão. | 13 | 1 |
 | 3 | Alta | Como Juiz, desejo ler uma síntese explicativa que compare a petição aos precedentes listados, para compreender a justificativa da recomendação da ferramenta antes de tomar minha decisão. | 8 | 1 |
 | 4 | Alta | Como Juiz, desejo acessar uma área de trabalho confidencial e individualizada, para garantir o sigilo absoluto das informações processuais que estou analisando. | 5 | 2 |
-| 5 | Alta | Como Juiz, desejo organizar os relatórios de casos que já analisei em pastas personalizadas, para consultar rapidamente estudos anteriores em processos futuros. | 8 | 2 |
-| 6 | Média | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 3 |
-| 7 | Média | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
+| 5 | Média | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 2 |
+| 6 | Média | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
 
 ---
 
