@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: precedentia-api
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/seu-usuario/precedentia-api.git'
+    targetRevision: feat/pia-73-precedent-continuous-deployment
+    path: k8s
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
