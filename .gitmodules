@@ -1,15 +1,15 @@
 [submodule "precedentia-mobile"]
 	path = precedentia-mobile
-	url = git@https://github.com/FR0M-ZER0/precedentia-mobile.git
+	url = https://github.com/FR0M-ZER0/precedentia-mobile.git
 [submodule "precedentia-api"]
 	path = precedentia-api
-	url = git@https://github.com/FR0M-ZER0/precedentia-api.git
+	url = https://github.com/FR0M-ZER0/precedentia-api.git
 [submodule "precedentia-embedding"]
 	path = precedentia-embedding
-	url = git@https://github.com/FR0M-ZER0/precedentia-embedding.git
+	url = https://github.com/FR0M-ZER0/precedentia-embedding.git
 [submodule "precedentia-scraper"]
 	path = precedentia-scraper
-	url = git@https://github.com/FR0M-ZER0/precedentia-scraper.git
+	url = https://github.com/FR0M-ZER0/precedentia-scraper.git
 [submodule "precedentia-summary"]
 	path = precedentia-summary
-	url = git@https://github.com/FR0M-ZER0/precedentia-summary.git
+	url = https://github.com/FR0M-ZER0/precedentia-summary.git
