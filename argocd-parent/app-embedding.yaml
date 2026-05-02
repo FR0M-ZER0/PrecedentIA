@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/FR0M-ZER0/precedentia-embedding.git'
-    targetRevision: feat/pia-73-precedent-continuous-deployment
+    targetRevision: hml
     path: k8s
   destination:
     server: 'https://kubernetes.default.svc'
