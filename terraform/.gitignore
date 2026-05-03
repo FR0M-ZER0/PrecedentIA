@@ -1,0 +1,13 @@
+# Ignorar arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Ignorar plugins baixados localmente
+.terraform/
+
+# Dados sensíveis
+*.pem
+*.key
+keys/
+terraform.tfvars
