@@ -41,9 +41,9 @@ O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para autom
 
 | Sprint | Período | Status | Relatório |
 |:------:|:-------:|:------:|:---------:|
-| 1 | 16/03/2026 à 05/04/2026 | Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
-| 2 | 13/04/2026 à 03/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
-| 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](https://github.com/FR0M-ZER0/PrecedentIA) |
+| 1 | 16/03/2026 à 05/04/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
+| 2 | 13/04/2026 à 03/05/2026 | Não Concluído | [Ver Relatório](./docs/burndown.png) |
+| 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](./docs/burndown.png) |
 
 ---
 
