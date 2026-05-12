@@ -32,8 +32,13 @@ O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para autom
 | 2 | Alta | Como Juiz, desejo visualizar precedentes jurídicos categorizados pelo seu nível de aplicabilidade ao caso, para agilizar a fundamentação da minha decisão. | 13 | 1 |
 | 3 | Alta | Como Juiz, desejo ler uma síntese explicativa que compare a petição aos precedentes listados, para compreender a justificativa da recomendação da ferramenta antes de tomar minha decisão. | 8 | 1 |
 | 4 | Alta | Como Juiz, desejo acessar uma área de trabalho confidencial e individualizada, para garantir o sigilo absoluto das informações processuais que estou analisando. | 5 | 2 |
-| 5 | Média | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 2 |
-| 6 | Média | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
+| 5 | Alta | Como Juiz, desejo visualizar minhas análises mais recentes logo na tela de boas-vindas, para retomar meu trabalho rapidamente de onde parei. | 5 | 2 |
+| 6 | Alta | Como Juiz, desejo emitir um documento formal com o resultado da análise e os precedentes selecionados, para anexá-lo como material de apoio aos autos do processo judicial. | 5 | 3 |
+| 7 | Alta | Como Advogado, desejo inserir a descrição e os documentos de um caso para que o sistema identifique a matéria e busque precedentes aplicáveis ranqueados por relevância e hierarquia. | 13 | 3 |
+| 8 | Alta | Como Advogado, desejo que o sistema gere uma sugestão de petição inicial estruturada (fatos, fundamentos, pedidos e citações), para reduzir meu tempo de elaboração. | 13 | 3 |
+| 9 | Alta | Como Julgador (2ª Instância), desejo que o sistema gere uma minuta de decisão (com relatório, fundamentação e dispositivo) baseada nos precedentes do tribunal, sinalizando eventuais ausências de teses fortes. | 13 | 3 |
+| 10 | Alta | Como Julgador (2ª Instância), desejo submeter os autos completos (PDF) para que o sistema classifique as peças processuais e extraia o contexto da inicial. | 13 | 3 |
+| 11 | Média | Como Advogado, desejo um ambiente de edição assistida para a minuta gerada, permitindo refinar a tese central e trocar os precedentes sugeridos. | 8 | 3 |
 
 ---
 
@@ -42,7 +47,7 @@ O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para autom
 | Sprint | Período | Status | Relatório |
 |:------:|:-------:|:------:|:---------:|
 | 1 | 16/03/2026 à 05/04/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
-| 2 | 13/04/2026 à 03/05/2026 | Não Concluído | [Ver Relatório](./docs/burndown.png) |
+| 2 | 13/04/2026 à 03/05/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
 | 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](./docs/burndown.png) |
 
 ---
@@ -64,7 +69,7 @@ O repositório utiliza **Submódulos Git** para gerenciar os componentes de form
 
 * **Frontend:** Flutter (Dart)
 * **Backend:** Python (FastAPI / Flask)
-* **Inteligência Artificial:** Ollama, Transformer-Encoders e Qdrant (Vector Database).
+* **Inteligência Artificial:** API da OpenAI (Modelos LLM para geração), Transformer-Encoders (para vetorização local) e Qdrant (Vector Database).
 * **Infraestrutura em Nuvem:** Oracle Cloud Infrastructure (OCI).
 * **Orquestração e Containers:** Kubernetes (K8s) e Docker.
 * **Infraestrutura como Código (IaC):** Terraform.
