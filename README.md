@@ -48,7 +48,7 @@ O **PrecedentIA** nasce para sanar essa dor, utilizando IA Generativa para autom
 |:------:|:-------:|:------:|:---------:|
 | 1 | 16/03/2026 à 05/04/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
 | 2 | 13/04/2026 à 03/05/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
-| 3 | 11/05/2026 à 31/05/2026 | Não Concluído | [Ver Relatório](./docs/burndown.png) |
+| 3 | 11/05/2026 à 31/05/2026 | Concluído | [Ver Relatório](./docs/burndown.png) |
 
 ---
 
@@ -76,7 +76,7 @@ O repositório utiliza **Submódulos Git** para gerenciar os componentes de form
 
 ---
 
-## 🚀 Como Executar, Usar e Testar o Projeto
+## 🚀 Como Executar, Testar e Usar o Projeto
 
 `Em elaboração pela equipe`
 
