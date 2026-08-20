@@ -11,7 +11,7 @@
 - [📅 Cronograma](#-cronograma)
 - [🏗️ Estrutura do Projeto e Arquitetura](#️-estrutura-do-projeto-e-arquitetura)
 - [⚙️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [🚀 Como Executar, Usar e Testar o Projeto](#-como-executar-usar-e-testar-o-projeto)
+- [🚀 Como Instalar, Executar, Usar e Testar o Projeto](#-como-instalar-executar-usar-e-testar-o-projeto)
 - [📂 Documentação](#-documentação)
 - [👥 Equipe](#-equipe)
 
@@ -76,9 +76,121 @@ O repositório utiliza **Submódulos Git** para gerenciar os componentes de form
 
 ---
 
-## 🚀 Como Executar, Testar e Usar o Projeto
+## 🚀 Como Instalar, Executar, Usar e Testar o Projeto
 
-`Em elaboração pela equipe`
+### Pré-requisitos
+
+Antes de iniciar, instale:
+
+- Git
+- Python 3.10 ou superior
+- Docker Desktop com Docker Compose
+- Flutter SDK, caso precise executar o aplicativo mobile
+
+### 1. Baixar o projeto e os submódulos
+
+Clone o repositório principal e inicialize os serviços mantidos em submódulos:
+
+```powershell
+git clone https://github.com/FR0M-ZER0/PrecedentIA.git
+cd PrecedentIA
+git submodule update --init --recursive
+```
+
+Os principais serviços de backend são `precedentia-api`, `precedentia-embedding` e `precedentia-summary`. O `precedentia-scraper` é utilizado para ingestão dos dados e o `precedentia-mobile` contém a aplicação Flutter.
+
+### 2. Criar os ambientes virtuais e instalar os pacotes
+
+No PowerShell, execute os comandos abaixo para cada serviço Python:
+
+```powershell
+cd precedentia-api
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+deactivate
+
+cd ..\precedentia-embedding
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+deactivate
+
+cd ..\precedentia-summary
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+deactivate
+```
+
+Caso o PowerShell bloqueie a ativação do ambiente virtual, permita scripts para o usuário atual:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+### 3. Subir os bancos e serviços auxiliares
+
+O arquivo `docker-compose.yml` deve estar no diretório a partir do qual o comando será executado. Suba os bancos antes das aplicações:
+
+```powershell
+docker compose up -d
+```
+
+Confira se os contêineres estão ativos:
+
+```powershell
+docker compose ps
+```
+
+### 4. Executar os serviços Python
+
+Abra um terminal para cada serviço e ative o respectivo ambiente virtual antes de iniciar o processo:
+
+**API**
+
+```powershell
+cd precedentia-api
+.\.venv\Scripts\Activate.ps1
+uvicorn app.main:app --reload
+```
+
+**Embedding**
+
+```powershell
+cd precedentia-embedding
+.\.venv\Scripts\Activate.ps1
+python -m src.main
+```
+
+**Summary**
+
+```powershell
+cd precedentia-summary
+.\.venv\Scripts\Activate.ps1
+python -m src.app
+```
+
+Mantenha os bancos em execução enquanto os serviços estiverem sendo utilizados. As variáveis de ambiente necessárias, incluindo credenciais da OpenAI e conexões com os bancos, devem ser configuradas conforme o arquivo `.env.example` de cada submódulo.
+
+### 5. Executar o aplicativo mobile
+
+```powershell
+cd precedentia-mobile
+flutter pub get
+flutter run
+```
+
+### Testes
+
+Execute os testes dentro de cada submódulo Python, quando disponíveis:
+
+```powershell
+pytest
+```
 
 ---
 
